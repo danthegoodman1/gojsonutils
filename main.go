@@ -132,7 +132,6 @@ func Flatten(object any, separator *string) (any, error) {
 					}
 					return string(str), nil
 				}
-				fmt.Println("returning object", object)
 				return object, nil
 			}
 		}
